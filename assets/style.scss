@@ -1,0 +1,25 @@
+$red: hsl(0, 78%, 62%);
+$cyan: hsl(180, 62%, 55%);
+$orange: hsl(34, 97%, 64%);
+$blue: hsl(212, 86%, 64%);
+$verydarkblue: hsl(234, 12%, 34%);
+$grayishblue: hsl(229, 6%, 66%);
+$verylightgray: hsl(0, 0%, 98%);
+
+//font-family: 'Poppins', sans-serif;
+
+html {
+    display: flex;
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    width: 1440px;
+    height: 100%;
+    justify-content: center;
+}
+
+.container {
+    display: grid;
+    width: 100%;
+    grid-template-rows: repeat(8, 12.5%);
+    grid-template-columns: repeat(3, 1fr);
+}
